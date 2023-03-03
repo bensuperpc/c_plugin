@@ -7,7 +7,7 @@
 
 int main(int argc, char** argv)
 {
-    void *plugin;
+    void *plugin = NULL;
     
     if (argc != 2) {
         fprintf(stderr, "Usage: %s pluginX (plugin1, plugin2...)\n", argv[0]);
